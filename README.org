@@ -4,6 +4,19 @@ WIP
 
 Inspired by Moritz Hardt's [[https://github.com/mrtzh/][unbuch]].
 
+* Install
+
+Clone this repository.
+
+Install in =dotspacemacs/layers= in =dotspacemacs-additional-packages=:
+
+- [[https://github.com/andras-simonyi/citeproc-org][citeproc-org]]
+- [[https://github.com/dakrone/ox-tufte][ox-tufte]]
+
+* Use
+
+Open a chapter in =sources/=. Run =citeproc-org-setup=. Then export the file with =SPC e e T o=.
+
 * license
 
 BSD-2

@@ -2,6 +2,7 @@
 :settings:
 #+options: num:nil toc:nil ^:nil
 #+HTML_HEAD: <link rel="stylesheet" href="../css/tufte.css" type="text/css" />
+#+CSL_STYLE: ../style.csl
 :end:
 
 
@@ -9,21 +10,19 @@
 
 Footnotes become margin notes. [fn:1] 
 
-This is some regular text [[mn:1][this will be a margin note]]
-
 * Epigraph
 
 #+begin_quote
-This will become an epigraaph
+This will become an epigraaph.
 #+end_quote
 
 * TODO References
 
-References should also appear on the margins. cite:nietzsche
+References should also appear on the margins cite:nietzsche. The citation will
+also appear in the "Biliography" section at the end of the document.
 
 
-Multiple references should appear in the margins together, with repeat 
-References should also appear on the margins. cite:nietzsche,hegel.
+Repeated references should be shortened cite:nietzsche,hegel. 
 
 * Images
 
@@ -37,6 +36,10 @@ Figures and images can also go in the margin.[fn:2]
 * Footnotes
 [fn:2] TODO figure in the margin
 
-[fn:1] This should be a numbered margin note.
+[fn:1] This is a numbered margin note. Unnumbered margin notes are also
+supported with the somewhat cumbersome syntax =[[mn:1][My unnumbered margin
+note.]]=. This syntax isn't very "org-y" to me, but I see the appeal of not
+having a number.
+
 
 bibliography:../references.bib
