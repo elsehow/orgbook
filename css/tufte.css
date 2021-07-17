@@ -19,7 +19,7 @@ body {
     counter-reset: sidenote-counter figure-counter; 
 }
 
-h1, h2, h3, #chapter {
+h1, h2, #chapter {
     font-family: Palatino;
     font-weight: 100;
     color: #333;

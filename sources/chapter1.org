@@ -6,6 +6,49 @@
 :end:
 
 
+* Section headings
+
+Enjoy org-style sections headings.
+
+Lists also work:
+
+- Fusce sagittis, libero non molestie mollis, magna orci ultrices dolor, at vulputate neque nulla lacinia eros.   
+- Praesent fermentum tempor tellus.
+- Aliquam posuere. 
+
+Anything in top-level sections will be exported in a regular, book-style
+formatting. Anything smaller than a top-level section will appear as a
+bulletpointed list, useful for outlining books-in-progress:
+
+** TODO Heading 2
+
+*** Heading 3
+
+**** Heading 4
+
+***** TODO Heading 5
+
+You can include text in these outlines.
+
+***** DONE Heading 5
+CLOSED: [2021-07-17 Sat 14:57]
+
+Marking things done is also great.
+
+**** Heading 4
+
+***** Heading 5
+
+Etiam vel neque nec dui dignissim bibendum.  
+
+****** Heading 6
+
+******* DONE Heading 7
+CLOSED: [2021-07-17 Sat 14:57]
+Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  
+******* TODO Heading 7
+
+Donec vitae dolor. Curabitur lacinia pulvinar nibh.   
 * Margin notes
 
 Footnotes become margin notes. [fn:1] 
@@ -13,7 +56,7 @@ Footnotes become margin notes. [fn:1]
 * Epigraph
 
 #+begin_quote
-This will become an epigraaph.
+This will become an epigraph.
 #+end_quote
 
 * TODO References
@@ -21,10 +64,9 @@ This will become an epigraaph.
 References should also appear on the margins cite:nietzsche. The citation will
 also appear in the "Biliography" section at the end of the document.
 
-
 Repeated references should be shortened cite:nietzsche,hegel. 
 
-* Images
+* WAIT Images
 
 Figures can have captions. 
 
