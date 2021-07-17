@@ -1,28 +1,33 @@
 #+title: Chapter 1
+:settings:
+#+options: num:nil toc:nil ^:nil
 #+HTML_HEAD: <link rel="stylesheet" href="../css/tufte.css" type="text/css" />
+:end:
+
 
 * Margin notes
+
 Footnotes become margin notes. [fn:1] 
 
 This is some regular text [[mn:1][this will be a margin note]]
 
 * Epigraph
+
 #+begin_quote
 This will become an epigraaph
 #+end_quote
 
 * TODO References
 
-References should also appear on the margins k
+References should also appear on the margins. cite:nietzsche
+
 
 Multiple references should appear in the margins together, with repeat 
-References should also appear on the margins cite: 
-
-
+References should also appear on the margins. cite:nietzsche,hegel.
 
 * Images
 
-Figures can have captions.
+Figures can have captions. 
 
 # TODO - figure with caption and label.
 
@@ -33,3 +38,5 @@ Figures and images can also go in the margin.[fn:2]
 [fn:2] TODO figure in the margin
 
 [fn:1] This should be a numbered margin note.
+
+bibliography:../references.bib

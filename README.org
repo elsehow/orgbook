@@ -1,3 +1,9 @@
 #+title: orgbook
 
 WIP
+
+Inspired by Moritz Hardt's [[https://github.com/mrtzh/][unbuch]].
+
+* license
+
+BSD-2
